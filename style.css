@@ -83,11 +83,6 @@ body {
     background-size: cover;
 }
 
-
-
-
-
-
 .header-hotel_paradise {
     width: 100vw;
     min-height: 100vh;
@@ -101,24 +96,6 @@ body {
     background: linear-gradient(var(--background-50), var(--background-50)), url(ocean_view.jpg), no-repeat center;
     background-size: cover;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .header-rooms {
     width: 100vw;
@@ -135,30 +112,12 @@ body {
     background-size: cover;
 }
 
-
-
 .header-roomsss {
     width: 100vw;
     min-height: 100vh;
     background: linear-gradient(var(--background-50), var(--background-50)), url(room2main.jpg), no-repeat center;
     background-size: cover;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .header-contactus {
     width: 100vw;
@@ -397,8 +356,6 @@ body {
         opacity: 0;
     }
 }
-
-
 /* home styles*/
 
 article {
@@ -499,15 +456,20 @@ article {
     background-size: cover;
 }
 
+.article-section-main--imgg-contentt {
+    width: var(--space-15xl);
+    height: var(--space-13xl);
+    background: linear-gradient(var(--background-20), var(--background-20)), url(oceanviewresortoutside.jpg), no-repeat center;
+    background-size: cover;
+}
 
 
-
-
-
-
-
-
-
+.article-section-mainn-img-contentt {
+    width: var(--space-15xl);
+    height: var(--space-13xl);
+    background: linear-gradient(var(--background-20), var(--background-20)), url(hotelparadiseoutside.jpg), no-repeat center;
+    background-size: cover;
+}
 
 .article-section-mainn-img-content {
     width: var(--space-15xl);
@@ -532,17 +494,6 @@ article {
     background: linear-gradient(var(--background-20), var(--background-20)), url(upcoming1.jpg), no-repeat center;
     background-size: cover;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 /* facilities styles */
 
@@ -598,19 +549,6 @@ article {
     margin-bottom: 10vh;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 .article-section-room-card-styles-imgsingle {
     align-self: center;
     width: 100%;
@@ -632,21 +570,6 @@ article {
     background: linear-gradient(var(--background-20), var(--background-20)), url(Room_Twin2.png), no-repeat center;
     background-size: cover;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .article-section-room-card-styles-imgsinglee {
     align-self: center;
@@ -670,18 +593,27 @@ article {
     background-size: cover;
 }
 
+.article-section-room-card-styles-imgsingleeeee {
+    align-self: center;
+    width: 100%;
+    height: var(--space-19xl);
+    background: linear-gradient(var(--background-20), var(--background-20)), url(standardroom.jpg), no-repeat center;
+    background-size: cover;
+}
 
+.article-section-room-card-styles-imgdoubleeeeee {
+    width: 100%;
+    height: var(--space-19xl);
+    background: linear-gradient(var(--background-20), var(--background-20)), url(beachfrontsuite.jpg), no-repeat center;
+    background-size: cover;
+}
 
-
-
-
-
-
-
-
-
-
-
+.article-section-room-card-styles-imgtwinnnnn {
+    width: 100%;
+    height: var(--space-19xl);
+    background: linear-gradient(var(--background-20), var(--background-20)), url(luxuryroom.jpg), no-repeat center;
+    background-size: cover;
+}
 
 .article-section-room-card-styles-type {
     background-color: var(--color-blue);
@@ -824,7 +756,7 @@ article {
 
 footer {
     width: 100vw;
-    min-height: 30vh;
+    min-height: 15vh;
     background-color: var(--color-blue);
     display: flex;
     align-items: center;
@@ -928,30 +860,4 @@ ul {
 li {
     position: relative;
     display: inline-block;
-}
-
-/* Style the dropdown */
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-}
-
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-.dropdown-content a:hover {
-    background-color: #f1f1f1;
-}
-
-/* Show the dropdown when hovering */
-li:hover .dropdown-content {
-    display: block;
 }
