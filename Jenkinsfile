@@ -14,7 +14,7 @@ stage('Upload to AWS') {
 steps {
 withAWS(region:'us-east-1',credentials:'anurag') {
 sh 'echo "Uploading content with AWS creds"'
-s3Upload(pathStyleAccessEnabled: true, payloadSigningEnabled: true, file:'index.html',
+s3Upload(pathStyleAccessEnabled: true, payloadSigningEnabled: true, file:'home.html',
 bucket:'jekinsanurag')
 }
 }
